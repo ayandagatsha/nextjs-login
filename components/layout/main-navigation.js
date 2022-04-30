@@ -21,7 +21,7 @@ function MainNavigation() {
         <ul>
           {!session && !loading && (
             <li>
-              <Link href='/auth'>Login</Link>
+              <Link href='/auth'>Login/Register</Link>
             </li>
           )}
           {session && (
